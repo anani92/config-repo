@@ -21,11 +21,7 @@ spring:
       percentage: 1
   cloud:
     loadbalancer.ribbon.enabled: false  
-    gateway:
-      discovery:
-      locator:
-        enabled: true
-        lowerCaseServiceId: true
+
 
 management:
   endpoints:
